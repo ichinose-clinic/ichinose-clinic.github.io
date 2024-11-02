@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.hero-unit {
+  padding: 20px;
+  height:320px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.hero-unit-clinic {
+  background-image: url(../img/head1.jpg);
+}
+.hero-unit-beauty {
+  background-image: url(../img/head2.jpg);
+}
+@media screen and (max-width: 1000px) {
+  .hero-unit-base, .hero-unit-beauty {
+    height:180px;
+  }
+}
+#price_table th:nth-child(2), #price_table th:nth-child(3), #price_table td:nth-child(2), #price_table td:nth-child(3){
+  text-align: center;
+}
