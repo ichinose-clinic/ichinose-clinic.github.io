@@ -16,7 +16,7 @@
   background-image: url(../img/head2.jpg);
 }
 @media screen and (max-width: 1000px) {
-  .hero-unit-base, .hero-unit-beauty {
+  .hero-unit-clinic, .hero-unit-beauty {
     height:180px;
   }
 }
